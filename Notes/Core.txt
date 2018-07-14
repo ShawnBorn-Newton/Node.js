@@ -1,0 +1,17 @@
+Node is written in C++ V8
+
+Ecmascript: Standard Javascript is based on.
+
+Javascript engine: program that coverts js coe into something the computer processor can understand.
+
+V8{
+
+Open scorce js engine
+
+Adds features to js for sever side application
+
+
+
+
+}
+
