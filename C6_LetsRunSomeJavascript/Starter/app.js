@@ -1,11 +1,13 @@
-var person = {
-  fistName: 'John',
-  lastName: 'Doe',
-  greet: function(){
-  console.log('Hello, ' + this.fistName + ' ' + this.lastName);
-  }
+function Person(firstname, lastname) {
+
+  this.firstname = firstname;
+  this.lastname = lastname;
+}
+
+Person.prototype.greet = function(){
+  console.log('Hello, ' + this.firstname + ' '
++ this.lastname);
 };
 
-person.greet();
-
-console.log(person['fistName']);
+var john = new Person('John', 'Doe');
+john.greet();
